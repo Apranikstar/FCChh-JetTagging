@@ -10,7 +10,7 @@ import ROOT
 
 def get_process_from_sample(sample):
     import re
-    match = re.search(r"mgp8_pp_(.+?)_(?:HT|Q)", sample)
+    match = re.search(r"mg(?:p8)?_pp_(.+?)_(?:HT|Q)", sample)
     if match:
         return match.group(1)
     else:
