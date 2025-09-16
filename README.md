@@ -21,14 +21,19 @@ python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_
 python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II_trackCov --outdir /eos/user/h/hfatehi/mgp8_pp_zhadzhad_Q_3000_10000_5f_84TeV --sample mgp8_pp_zhadzhad_Q_3000_10000_5f_84TeV --ncpus 64
 python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II_trackCov --outdir /eos/user/h/hfatehi/mgp8_pp_thadthad_Q_30000_84000_5f_84TeV --sample mgp8_pp_thadthad_Q_30000_84000_5f_84TeV --ncpus 64
 python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II_trackCov --outdir /eos/user/h/hfatehi/mgp8_pp_whadwhad_Q_30000_84000_5f_84TeV --sample mgp8_pp_whadwhad_Q_30000_84000_5f_84TeV --ncpus 64
-python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II/ --outdir /eos/user/h/hfatehi/mgp8_pp_bb_Q_3000_10000_5f_84TeV  --sample mgp8_pp_bb_Q_3000_10000_5f_84TeV --ncpus 64
-python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II/ --outdir /eos/user/h/hfatehi/mgp8_pp_bb_Q_10000_30000_5f_84TeV  --sample mgp8_pp_bb_Q_10000_30000_5f_84TeV --ncpus 64
-python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II/ --outdir /eos/user/h/hfatehi/mgp8_pp_bb_Q_30000_84000_5f_84TeV  --sample mgp8_pp_bb_Q_30000_84000_5f_84TeV --ncpus 64
-python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II/ --outdir /eos/user/h/hfatehi/mgp8_pp_tautau_HT_2000_100000_5f_84TeV  --sample mgp8_pp_tautau_HT_2000_100000_5f_84TeV --ncpus 64
-python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II/ --outdir /eos/user/h/hfatehi/mgp8_pp_tautau_HT_2000_3170_5f_84TeV  --sample mgp8_pp_tautau_HT_2000_3170_5f_84TeV --ncpus 64
-python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II/ --outdir /eos/user/h/hfatehi/mgp8_pp_cc_Q_3000_10000_5f_84TeV  --sample mgp8_pp_cc_Q_3000_10000_5f_84TeV --ncpus 64
-python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II/ --outdir /eos/user/h/hfatehi/mgp8_pp_cc_Q_10000_30000_5f_84TeV  --sample mgp8_pp_cc_Q_10000_30000_5f_84TeV --ncpus 64
-python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II/ --outdir /eos/user/h/hfatehi/mgp8_pp_cc_Q_30000_84000_5f_84TeV  --sample mgp8_pp_cc_Q_30000_84000_5f_84TeV --ncpus 64
+
+python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II_trackCov --outdir /eos/user/h/hfatehi/mgp8_pp_bb_Q_3000_10000_5f_84TeV  --sample mgp8_pp_bb_Q_3000_10000_5f_84TeV --ncpus 64
+python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II_trackCov --outdir /eos/user/h/hfatehi/mgp8_pp_bb_Q_10000_30000_5f_84TeV  --sample mgp8_pp_bb_Q_10000_30000_5f_84TeV --ncpus 64
+python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II_trackCov --outdir /eos/user/h/hfatehi/mgp8_pp_bb_Q_30000_84000_5f_84TeV  --sample mgp8_pp_bb_Q_30000_84000_5f_84TeV --ncpus 64
+
+python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II_trackCov --outdir /eos/user/h/hfatehi/mgp8_pp_cc_Q_3000_10000_5f_84TeV  --sample mgp8_pp_cc_Q_3000_10000_5f_84TeV --ncpus 16
+python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II_trackCov --outdir /eos/user/h/hfatehi/mgp8_pp_cc_Q_10000_30000_5f_84TeV  --sample mgp8_pp_cc_Q_10000_30000_5f_84TeV --ncpus 64
+python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II_trackCov --outdir /eos/user/h/hfatehi/mgp8_pp_cc_Q_30000_84000_5f_84TeV  --sample mgp8_pp_cc_Q_30000_84000_5f_84TeV --ncpus 64
+
+
+python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II_trackCov --outdir /eos/user/h/hfatehi/mgp8_pp_uuddss_Q_3000_10000_5f_84TeV  --sample mgp8_pp_uuddss_Q_3000_10000_5f_84TeV --ncpus 16
+python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II_trackCov --outdir /eos/user/h/hfatehi/mgp8_pp_uuddss_Q_10000_30000_5f_84TeV  --sample mgp8_pp_uuddss_Q_10000_30000_5f_84TeV --ncpus 64
+python stage_all.py --indir /eos/experiment/fcc/hh/generation/DelphesEvents/fcc_v07/II_trackCov --outdir /eos/user/h/hfatehi/mgp8_pp_uuddss_Q_30000_84000_5f_84TeV  --sample mgp8_pp_uuddss_Q_30000_84000_5f_84TeV --ncpus 64
 
 
 ```
